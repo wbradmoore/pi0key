@@ -21,15 +21,15 @@ def main():
     if len(repeats) < len(sequences):
         repeats.append(1)
 
-    print sequences
-    print repeats
+    print(sequences)
+    print(repeats)
 
     for i in range(len(sequences)):
         keys=sequences[i]
         num_repeats=repeats[i]
         for j in range(num_repeats):
             for key in keys:
-                print key
+                print(key)
                 if key.startswith('sleep:'):
                     sleeps = [float(s) for s in key.split(":")[1:]]
                     if len(sleeps) == 1:
