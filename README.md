@@ -6,6 +6,8 @@ Example:
 
 ```sudo python3 pi0key.py del,sleep:1,repeat:600```
 
+This emulates a press of the Delete key about every second for about ten minutes
+
 Note that `sleep` instructions randomize the length of the sleep, distributed roughly around the value provided (in seconds).
 
 Todo:
