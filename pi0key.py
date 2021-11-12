@@ -171,13 +171,13 @@ keypress_functions = {
 'f12':"write_report(chr(0)*2 +chr(69)+chr(0)*5)",
 
 # ']':"write_report(chr(5)+chr(0)+chr(76)+chr(0)*5)", #CTRL+ALT+DEL
-'ent':"write_report(chr(0)*2 +chr(40)+chr(0)*5)", #ENTER
-'esc':"write_report(chr(0)*2 +chr(41)+chr(0)*5)", #ESC
+'ent':"write_report(chr(0)*2 +chr(40)+chr(0)*5)",
+'esc':"write_report(chr(0)*2 +chr(41)+chr(0)*5)",
 'bs':"write_report(chr(0)*2 +chr(42)+chr(0)*5)", #BACKSPACE
-'tab':"write_report(chr(0)*2 +chr(43)+chr(0)*5)", #TAB
-'space':"write_report(chr(0)*2 +chr(44)+chr(0)*5)", #SPATIE
+'tab':"write_report(chr(0)*2 +chr(43)+chr(0)*5)",
+'space':"write_report(chr(0)*2 +chr(44)+chr(0)*5)",
 'ps':"write_report(chr(0)*2 +chr(70)+chr(0)*5)", #PRINT SCREEN
-'del':"write_report(chr(0)*2 +chr(76)+chr(0)*5)", #DELETE
+'del':"write_report(chr(0)*2 +chr(76)+chr(0)*5)",
 
 
 'right':"write_report(chr(0)*2 +chr(79)+chr(0)*5)",
